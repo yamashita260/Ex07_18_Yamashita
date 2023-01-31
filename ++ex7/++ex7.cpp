@@ -82,6 +82,7 @@ public:
 	}
 };
 
+
 int main() {
 	Box box{ 3, 5, 2.5 };
 	cout << "箱の体積" << box.GetVolume() << endl;
